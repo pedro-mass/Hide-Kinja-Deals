@@ -13,7 +13,7 @@
 (function() {
     'use strict';
     // hide from main page
-    $("article:contains('Shared from Kinja Deals')").css("display", "none");
+    $("article:contains('Kinja Deals')").css("display", "none");
     // hide related from article page
-    $("div.related-module--commerce:contains('Gear from Kinja Deals')").css("display", "none");
+    $("div.related-module--commerce:contains('Kinja Deals')").css("display", "none");
 })();
