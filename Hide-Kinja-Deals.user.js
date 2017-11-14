@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide Kinja Deals
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  try to take over the world!
 // @author       You
 // @match        *.lifehacker.com/*
@@ -16,4 +16,6 @@
     $("article:contains('Kinja Deals')").css("display", "none");
     // hide related from article page
     $("div.related-module--commerce:contains('Kinja Deals')").css("display", "none");
+    // hide more from lifehacker
+    $("li.thumb-inset:contains('Kinja Deals')").css("display", "none");
 })();
